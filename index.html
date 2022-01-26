@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CV Builder</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="index.js" defer></script>
+ <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+
+</head>
+<body>
+
+<form>
+  <div class="header">
+    <h1>Build Your CV</h1>
+    <p>Fill out the information below</p>
+  </div>
+
+  <h2>Personal Details</h2>
+
+  <div class="section">
+    <label for="name">Full Name <span>*</span></label>
+    <input type="text" name="name" id="name" placeholder="Harith">
+  </div>
+
+  <div class="section">
+    <label for="address">Address</label>
+    <input type="text" name="address" id="address" placeholder="London">
+  </div>
+
+  <div class="section">
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="phone" placeholder="077">
+  </div>
+
+  <div class="section">
+    <label for="email">Email <span>*</span></label>
+    <input type="text" name="email" id="email" placeholder="example@mail.com">
+  </div>
+
+  <div class="section">
+    <label for="about">About You</label>
+    <textarea name="about" id="about"
+              placeholder="Three or four sentences about your personality, work ethic, interests, and/or more"></textarea>
+  </div>
+
+  <div class="section">
+    <label for="career">Career Objectives</label>
+    <textarea name="career" id="career"
+              placeholder="One or two sentences about what you wish to accomplish in your career"></textarea>
+  </div>
+
+  <div class="section">
+    <label for="education">Education</label>
+    <textarea name="education" id="education"
+              placeholder="List any completed high school, college, or other educational programs"></textarea>
+  </div>
+
+  <div class="lineBreak"></div>
+
+  <h2>Work Experience</h2>
+
+  <h3>Most Recent Job</h3>
+
+  <div class="formDate">
+    <div class="section">
+      <label for="jobStart">Start Date</label>
+      <input type="date" name="jobStart" id="jobStart">
+    </div>
+    <div class="section">
+      <label for="jobEnd">End Date</label>
+      <input type="date" name="jobEnd" id="jobEnd">
+    </div>
+  </div>
+
+  <div class="section">
+    <label for="jobDetails">Position Details</label>
+    <textarea name="jobDetails" id="jobDetails"></textarea>
+  </div>
+
+  <div class="lineBreak"></div>
+
+  <h3>Past Job</h3>
+
+  <div class="formDate">
+    <div class="section">
+      <label for="job2Start">Start Date</label>
+      <input type="date" name="job2Start" id="job2Start">
+    </div>
+    <div class="section">
+      <label for="job2End">End Date</label>
+      <input type="date" name="job2End" id="job2End">
+    </div>
+  </div>
+
+  <div class="section">
+    <label for="job2Details">Position Details</label>
+    <textarea name="job2Details" id="job2Details"></textarea>
+  </div>
+
+  <div class="lineBreak"></div>
+
+  <h3>Another Past Job</h3>
+
+  <div class="formDate">
+    <div class="section">
+      <label for="job3Start">Start Date</label>
+      <input type="date" name="job3Start" id="job3Start">
+    </div>
+    <div class="section">
+      <label for="job3End">End Date</label>
+      <input type="date" name="job3End" id="job3End">
+    </div>
+  </div>
+
+  <div class="section">
+    <label for="job3Details">Position Details</label>
+    <textarea name="job3Details" id="job3Details"></textarea>
+  </div>
+
+  <div class="lineBreak"></div>
+
+  <div class="section">
+    <label for="references">References</label>
+    <textarea name="references" id="references"></textarea>
+  </div>
+
+  <div class="lineBreak"></div>
+
+  <input type="submit" value="Create CV" id="createCV">
+</form>
+</body>
+</html>
