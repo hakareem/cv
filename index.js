@@ -1,5 +1,8 @@
 "use strict"
 
+//getform
+
+//easier way to make form concise
 const getState = () => {
   const $ = (element) => {
     return document.getElementById(element).value
