@@ -5,7 +5,7 @@ While attempting to improve my knowledge of forms by getting values from input b
 It was a valuable learning experience. I got to experiement with the DOM using Javascript. I discovered new ways of writing more concise and cleaner code that is easy to understand. 
 
 # Areas For Improvment 
-This form can certainly be improved. 
-• I should allow the user to customise fonts and styles of the CV. 
-• I can also improve this project by enabling an option for uploading an image.
+This form can certainly be improved. <br>
+• I should allow the user to customise fonts and styles of the CV. <br>
+• I can also improve this project by enabling an option for uploading an image.<br>
 • Allow customisable page structure / layout
